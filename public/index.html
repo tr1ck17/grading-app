@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Group Evaluation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>Peer Eval</header>
+
+  <div class="evaluation-section">
+    <label for="group-select">Select Your Group:</label>
+    <select id="group-select">
+      <option disabled selected>--Select Group--</option>
+    </select>
+
+    <div id="member-section">
+      <label for="member-select">Select Your Name:</label>
+      <select id="member-select">
+        <option value="">--Choose your name--</option>
+      </select>
+    </div>
+
+    <div id="points-section">
+      <h3>Distribute 100 points among your group members:</h3>
+      <h4>(Decide the number based on the workload of each person in group activities)</h4>
+      <form id="points-form">
+        <!-- New container for injected inputs -->
+        <div id="inputs-container"></div>
+        <button type="submit" id="submitBtn">Submit</button>
+      </form>
+    </div>
+
+    <div id="status" class="status"></div>
+    <pre id="output"></pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

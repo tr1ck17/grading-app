@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admin Result Page</title>
+  <link rel="stylesheet" href="results.css">
+</head>
+<body>
+  <h1>Results</h1>
+
+  <div id="auth-section">
+    <label for="admin-password">Admin Password:</label>
+    <input type="password" id="admin-password" />
+    <button id="load-results">Load Results</button>
+  </div>
+
+  <div id="status" class="error"></div>
+
+  <!-- This is where we’ll inject one table per group -->
+  <div id="tables-container"></div>
+
+  <script src="result_script.js"></script>
+</body>
+</html>
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Result Page</title>
+    <link rel="stylesheet" href="results.css">
+</head>
+<body>
+
+    <h1>Results</h1>
+
+    <div id="auth-section">
+        <label for="admin-password">Admin Password:</label>
+        <input type="password" id="admin-password" />
+        <button id="load-results">Load Results</button>
+    </div>
+
+    <div id="status" class="error"></div>
+
+    <table id="results-table" style="display: none">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Total Score</th>
+                <th>Last Submitted</th>
+            </tr>
+        </thead>
+        <tbody id="results-body"></tbody>
+    </table>
+
+    <script src="result_script.js"></script>
+</body>
+</html>-->

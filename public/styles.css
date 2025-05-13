@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: lightgray;
+}
+
+header {
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.evaluation-section {
+    text-align: center;
+}
+
+label {
+    font-size: 2rem;
+}
+
+select,
+input[type="number"] {
+    width: auto;
+    height: 30px;
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+select:active {
+    border: 1px solid black;
+}
+
+#member-section,
+#points-section {
+    display: none;
+}
+
+#points-section h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+#points-section h4 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+/* Hide output until there’s text */
+#output {
+    display: none;
+    margin-top: 20px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
